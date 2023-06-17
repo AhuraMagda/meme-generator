@@ -1,38 +1,74 @@
-.App {
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  align-items: center;
+  background-image: linear-gradient(to right, #672280, #A626D3);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.header--name {
+  align-items: center;
+  display: flex;
+}
+
+.header--name h1 {
+  font-size: 1.5rem;
+}
+
+.header--name p {
+  font-size: 1rem;
+}
+
+.troll-face {
+  height: 30px;
+  padding-right: 10px;
+}
+
+/* Meme */
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.meme--form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  padding: 30px;
+  width: 500px;
+  gap: 15px
+}
+
+.meme--form input {
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  padding: 15px;
+}
+
+#meme--form--submit {
+  align-items: center;
+  background-image: linear-gradient(to right, #672280, #A626D3);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: "Karla", sans-serif;
+  justify-content: center;
+  grid-column: 1 / span 2;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#meme-img {
+  max-width: 400px;
 }

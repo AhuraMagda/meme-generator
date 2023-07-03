@@ -21,7 +21,6 @@ This is a meme generator project made while taking a react course on Scrimba.com
 
 ### Useful resources
 - [Scrimba](https://scrimba.com/) - a learning platform
-- PHPMailer
 
 ## Author
 - Github (https://github.com/AhuraMagda)

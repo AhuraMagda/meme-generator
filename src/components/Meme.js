@@ -1,6 +1,6 @@
 
 import React from 'react';
-import memesData from "../memesData";
+import {memesData} from "../memesData";
 
 
 function Meme() {

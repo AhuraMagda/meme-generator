@@ -5,7 +5,7 @@ function Header() {
     return (
         <header>
             <div className='header--name'>
-                <img className="troll-face" src={trollFace}/>
+                <img className="troll-face" src={trollFace} alt="troll face"/>
                 <h1>Meme Generator</h1>
             </div>
             <p>React Course - Project 3</p>

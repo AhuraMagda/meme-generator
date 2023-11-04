@@ -8,7 +8,7 @@
 
 header {
   align-items: center;
-  background-image: linear-gradient(to right, #672280, #A626D3);
+  background-image: linear-gradient(to right, #672280, #a626d3);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@ main {
   grid-template: 40px 40px / 1fr 1fr;
   padding: 30px;
   width: 500px;
-  gap: 15px
+  gap: 15px;
 }
 
 .meme--form input {
@@ -59,7 +59,7 @@ main {
 
 #meme--form--submit {
   align-items: center;
-  background-image: linear-gradient(to right, #672280, #A626D3);
+  background-image: linear-gradient(to right, #672280, #a626d3);
   color: white;
   cursor: pointer;
   display: flex;
@@ -87,16 +87,9 @@ main {
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
-  text-shadow:
-      2px 2px 0 #000,
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      0 2px 0 #000,
-      2px 0 0 #000,
-      0 -2px 0 #000,
-      -2px 0 0 #000,
-      2px 2px 5px #000;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
 }
 
 .top {
